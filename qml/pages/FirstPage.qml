@@ -60,26 +60,13 @@ Page {
                 onClicked: pageStack.animatorPush(Qt.resolvedUrl("FirstPage.qml"))
             }
         }
-        contentHeight: column.height
-
-        Column {
-            id: column
-
-            width: page.width
-            spacing: Theme.paddingLarge
-            PageHeader {
-                title: qsTr("Calculate")
-            }
-        }
     }
 
     Item {
-        id: pad
-        width: 220
-        anchors.right:parent.right
         NumberPad {
-            id: thePad
-            y: 150
+            id: pad
+             x: 740
+             y: 30
         }
     }
 

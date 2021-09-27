@@ -10,7 +10,7 @@ Page {
         model: 20
         anchors.fill: parent
         header: PageHeader {
-            title: qsTr("From")
+            title: qsTr("About Frome")
         }
 
         Image {
@@ -25,7 +25,23 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 750
             color: Theme.highlightColor
-            text: "Version 0.1.2"
+            text: "Version 0.1.3"
         }
-}
+        Label {
+            anchors {
+                left: parent.left
+                right: parent.right
+                leftMargin: Theme.horizontalPageMargin
+                rightMargin: Theme.horizontalPageMargin
+            }
+            height: implicitHeight + Theme.paddingMedium
+            color: Theme.highlightColor
+            linkColor: Theme.primaryColor
+            font.pixelSize: Theme.fontSizeSmall
+            wrapMode: Text.WordWrap
+            y: 850
+            horizontalAlignment: Qt.AlignHCenter
+            text: "A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the BSD License."
+        }
+    }
 }
