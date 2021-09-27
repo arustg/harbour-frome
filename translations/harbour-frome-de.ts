@@ -4,7 +4,7 @@
 <context>
     <name>About</name>
     <message>
-        <source>From</source>
+        <source>About Frome</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -19,10 +19,6 @@
     <name>FirstPage</name>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Calculate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
