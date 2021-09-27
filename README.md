@@ -1,2 +1,2 @@
 # harbour-frome
-A simple app for calculating percentage from number
+A simple Sailfish OS app for calculating percentage from number
