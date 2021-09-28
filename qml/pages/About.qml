@@ -20,13 +20,13 @@ Page {
             source: "/usr/share/icons/hicolor/172x172/apps/harbour-frome.png"
         }
 
-
         Label {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 750
             color: Theme.highlightColor
-            text: "Version 0.1.3"
+            text: "Version 0.1.4"
         }
+
         Label {
             anchors {
                 left: parent.left

@@ -48,18 +48,19 @@ Page {
     SilicaFlickable {
         anchors.fill: parent
 
-        PullDownMenu {
-            MenuItem {
-                text: qsTr("About")
-                onClicked: pageStack.animatorPush(Qt.resolvedUrl("About.qml"))
-            }
-        }
+
+
         PushUpMenu {
             MenuItem {
                 text: qsTr("Skip")
                 onClicked: pageStack.animatorPush(Qt.resolvedUrl("FirstPage.qml"))
             }
+            MenuItem {
+                    text: qsTr("About")
+                    onClicked: pageStack.animatorPush(Qt.resolvedUrl("About.qml"))
+                }
         }
+
     }
 
     Item {
@@ -74,13 +75,12 @@ Page {
         ListView {
                 id: listView
                 x: 50
-                height: 1500
+                height: 1700
                 delegate: Item {
-                    height: fontPixelSize + 2
+                    height: fontPixelSize
                     width: parent.width
                     Text {
                         id: operator
-                        x: 8
                         font.pixelSize: 200
                         color: "#FFE680"
                         text: model.operator
@@ -89,7 +89,7 @@ Page {
                         id: operand
                         font.pixelSize: 200
                         anchors.left: parent.left
-                        anchors.leftMargin: 200
+                        anchors.leftMargin: 250
                         color: "#FFE680"
                         text: model.operand
                     }
@@ -97,5 +97,4 @@ Page {
                 model: ListModel { }
             }
     }
-
 }

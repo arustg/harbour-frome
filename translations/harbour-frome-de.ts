@@ -11,7 +11,7 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>From</source>
+        <source>Frome</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

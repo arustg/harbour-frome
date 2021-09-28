@@ -10,10 +10,10 @@ Name:       harbour-frome
 
 Summary:    A simple app for calculating percentage from number
 Version:    0.1
-Release:    3
+Release:    4
 Group:      Qt/Qt
-License:    LICENSE
-URL:        http://example.org/
+License:    BSD
+URL:        https://github.com/arustg/harbour-frome
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-frome.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
