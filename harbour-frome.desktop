@@ -5,3 +5,6 @@ Icon=harbour-frome
 Exec=harbour-frome
 Name=Frome
 Name[de]=Frome
+
+[X-Sailjail]
+Sandboxing=Disabled

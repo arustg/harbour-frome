@@ -5,6 +5,7 @@ CONFIG += sailfishapp
 SOURCES += src/harbour-frome.cpp
 
 DISTFILES += qml/harbour-frome.qml \
+    icons/256x256/harbour-frome.png \
     qml/cover/CoverPage.qml \
     qml/pages/About.qml \
     qml/pages/FirstPage.qml \
