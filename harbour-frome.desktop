@@ -7,4 +7,4 @@ Name=Frome
 Name[de]=Frome
 
 [X-Sailjail]
-Sandboxing=Disabled
+Sandboxing=Enabled

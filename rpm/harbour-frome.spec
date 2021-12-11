@@ -10,7 +10,7 @@ Name:       harbour-frome
 
 Summary:    A simple app for calculating percentage from number
 Version:    0.1
-Release:    4
+Release:    5
 Group:      Qt/Qt
 License:    BSD
 URL:        https://github.com/arustg/harbour-frome

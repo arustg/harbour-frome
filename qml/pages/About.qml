@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.6
 import Sailfish.Silica 1.0
 
 Page {
@@ -24,7 +24,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 750
             color: Theme.highlightColor
-            text: "Version 0.1.4"
+            text: "Version 0.1.5"
         }
 
         Label {

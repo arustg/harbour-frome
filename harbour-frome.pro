@@ -9,6 +9,7 @@ DISTFILES += qml/harbour-frome.qml \
     qml/cover/CoverPage.qml \
     qml/pages/About.qml \
     qml/pages/FirstPage.qml \
+    qml/pages/SymbolPad.qml \
     rpm/harbour-frome.changes.in \
     rpm/harbour-frome.changes.run.in \
     rpm/harbour-frome.spec \

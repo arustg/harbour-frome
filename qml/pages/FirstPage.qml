@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.6
 import Sailfish.Silica 1.0
 import "calculator.js" as CalcEngine
 
@@ -65,12 +65,18 @@ Page {
 
     Item {
         NumberPad {
-            id: pad
-             x: 740
-             y: 30
+             x: 700
+             y: 400
+
         }
     }
+    Item {
+        SymbolPad {
+             x: 685
+             y: 1500
 
+        }
+    }
     Item {
         ListView {
                 id: listView
