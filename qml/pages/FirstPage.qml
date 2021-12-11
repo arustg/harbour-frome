@@ -48,17 +48,13 @@ Page {
     SilicaFlickable {
         anchors.fill: parent
 
-
-
         PushUpMenu {
             MenuItem {
                 text: qsTr("Skip")
-                onClicked: pageStack.animatorPush(Qt.resolvedUrl("FirstPage.qml"))
-            }
+                onClicked: pageStack.animatorPush(Qt.resolvedUrl("FirstPage.qml"))}
             MenuItem {
                     text: qsTr("About")
-                    onClicked: pageStack.animatorPush(Qt.resolvedUrl("About.qml"))
-                }
+                    onClicked: pageStack.animatorPush(Qt.resolvedUrl("About.qml"))}
         }
 
     }
