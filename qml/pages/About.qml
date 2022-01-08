@@ -24,7 +24,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 750
             color: Theme.highlightColor
-            text: "Version 0.1.5"
+            text: "Version 0.2.0"
         }
 
         Label {
@@ -41,7 +41,7 @@ Page {
             wrapMode: Text.WordWrap
             y: 850
             horizontalAlignment: Qt.AlignHCenter
-            text: "A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the BSD License."
+            text: "A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License."
         }
     }
 }

@@ -83,15 +83,15 @@ Page {
                     width: parent.width
                     Text {
                         id: operator
-                        font.pixelSize: 200
+                        font.pixelSize: 150
                         color: "#FFE680"
                         text: model.operator
                     }
                     Text {
                         id: operand
-                        font.pixelSize: 200
+                        font.pixelSize: 150
                         anchors.left: parent.left
-                        anchors.leftMargin: 250
+                        anchors.leftMargin: 150
                         color: "#FFE680"
                         text: model.operand
                     }
