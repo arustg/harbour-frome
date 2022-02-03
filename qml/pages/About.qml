@@ -43,5 +43,13 @@ Page {
             horizontalAlignment: Qt.AlignHCenter
             text: "A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License."
         }
+
+        Button {
+            id: github
+            anchors.horizontalCenter: parent.horizontalCenter
+            y: 1250
+            text: qsTr("Source code")
+            onClicked: Qt.openUrlExternally("https://github.com/arustg/harbour-frome");
+        }
     }
 }
