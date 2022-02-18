@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="ru">
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="13"/>
         <source>About Frome</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="51"/>
         <source>Source code</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17,7 +15,6 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="8"/>
         <source>Frome</source>
         <translation type="unfinished"></translation>
     </message>
@@ -25,14 +22,12 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="53"/>
-        <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <source>About</source>
+        <translation>О программе</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="56"/>
-        <source>About</source>
-        <translation type="unfinished"></translation>
+        <source>Skip</source>
+        <translation>Пропустить</translation>
     </message>
 </context>
 </TS>

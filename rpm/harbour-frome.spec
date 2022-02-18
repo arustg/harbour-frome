@@ -12,7 +12,7 @@ Summary:    A simple app for calculating percentage from number
 Version:    0.2
 Release:    0
 Group:      Qt/Qt
-License:    BSD
+License:    GPLv3
 URL:        https://github.com/arustg/harbour-frome
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-frome.yaml

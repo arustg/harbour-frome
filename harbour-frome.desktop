@@ -4,7 +4,6 @@ X-Nemo-Application-Type=silica-qt5
 Icon=harbour-frome
 Exec=harbour-frome
 Name=Frome
-Name[de]=Frome
 
 [X-Sailjail]
 Sandboxing=Enabled
