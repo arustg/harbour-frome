@@ -11,6 +11,10 @@
         <source>Source code</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
