@@ -2,8 +2,6 @@ TARGET = harbour-frome
 
 CONFIG += sailfishapp
 
-SOURCES += src/harbour-frome.cpp
-
 DISTFILES += \
     qml/harbour-frome.qml \
     qml/cover/CoverPage.qml \
