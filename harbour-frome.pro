@@ -2,6 +2,8 @@ TARGET = harbour-frome
 
 CONFIG += sailfishapp
 
+DEFINES += APP_VERSION=\\\"$$VERSION\\\"
+
 DISTFILES += \
     qml/harbour-frome.qml \
     qml/cover/CoverPage.qml \
@@ -21,3 +23,6 @@ CONFIG += sailfishapp_i18n
 TRANSLATIONS += \
     translations/harbour-frome-de.ts \
     translations/harbour-frome-ru.ts
+
+SOURCES += \
+    src/untitled.cpp
