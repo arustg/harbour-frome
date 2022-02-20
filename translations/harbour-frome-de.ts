@@ -5,15 +5,15 @@
     <name>About</name>
     <message>
         <source>About Frome</source>
-        <translation type="unfinished"></translation>
+        <translation>Über Frome</translation>
     </message>
     <message>
         <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine einfache App zur Berechnung des Prozentsatzes aus der Zahl. Dies ist eine Open-Source-Software, die unter den Bedingungen der GNU GPLv3-Lizenz vertrieben wird.</translation>
     </message>
     <message>
         <source>Source code</source>
-        <translation type="unfinished"></translation>
+        <translation>Quelltexte</translation>
     </message>
 </context>
 <context>
