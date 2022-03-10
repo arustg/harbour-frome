@@ -6,17 +6,17 @@
     <message>
         <location filename="../qml/pages/About.qml" line="13"/>
         <source>About Frome</source>
-        <translation type="unfinished"></translation>
+        <translation>About Frome</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="44"/>
         <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</source>
-        <translation type="unfinished"></translation>
+        <translation>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="51"/>
         <source>Source code</source>
-        <translation type="unfinished"></translation>
+        <translation>Source code</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="8"/>
         <source>Frome</source>
-        <translation type="unfinished"></translation>
+        <translation>Frome</translation>
     </message>
 </context>
 <context>
@@ -32,12 +32,12 @@
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="53"/>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Skip</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="56"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>About</translation>
     </message>
 </context>
 </TS>
