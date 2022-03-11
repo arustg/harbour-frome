@@ -8,8 +8,7 @@ DISTFILES += \
     qml/harbour-frome.qml \
     qml/cover/CoverPage.qml \
     qml/pages/About.qml \
-    qml/pages/FirstPage.qml \
-    qml/pages/SymbolPad.qml \
+    qml/pages/MainPage.qml \
     qml/pages/Numberad.qml \
     rpm/harbour-frome.spec \
     rpm/harbour-frome.yaml \

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Name=Frome
 Icon=harbour-frome
 Exec=harbour-frome
+Name=Frome

@@ -3,15 +3,9 @@ import Sailfish.Silica 1.0
 
 Page {
     id: about
-    allowedOrientations: Orientation.Portrait
 
     SilicaListView {
-        id: listView
-        model: 20
         anchors.fill: parent
-        header: PageHeader {
-            title: qsTr("About Frome")
-        }
 
         Image {
             id: icon
@@ -24,7 +18,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 750
             color: Theme.highlightColor
-            text: "Frome 0.2.1"
+            text: "Frome 0.2.2"
         }
 
         Label {
@@ -35,8 +29,7 @@ Page {
                 rightMargin: Theme.horizontalPageMargin
             }
             height: implicitHeight + Theme.paddingMedium
-            color: Theme.highlightColor
-            linkColor: Theme.primaryColor
+            color: Theme.primaryColor
             font.pixelSize: Theme.fontSizeSmall
             wrapMode: Text.WordWrap
             y: 850

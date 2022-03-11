@@ -4,17 +4,17 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="13"/>
-        <source>About Frome</source>
-        <translation>About Frome</translation>
+        <location filename="../qml/pages/About.qml" line="12"/>
+        <source></source>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="44"/>
+        <location filename="../qml/pages/About.qml" line="37"/>
         <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</source>
         <translation>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="51"/>
+        <location filename="../qml/pages/About.qml" line="44"/>
         <source>Source code</source>
         <translation>Source code</translation>
     </message>
@@ -28,16 +28,16 @@
     </message>
 </context>
 <context>
-    <name>FirstPage</name>
+    <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="53"/>
+        <location filename="../qml/pages/MainPage.qml" line="50"/>
         <source>Skip</source>
-        <translation>Skip</translation>
+        <translation type="unfinished">Skip</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="56"/>
+        <location filename="../qml/pages/MainPage.qml" line="53"/>
         <source>About</source>
-        <translation>About</translation>
+        <translation type="unfinished">About</translation>
     </message>
 </context>
 </TS>
