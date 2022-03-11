@@ -10,8 +10,8 @@ Page {
         Image {
             id: icon
             anchors.horizontalCenter: parent.horizontalCenter
-            y: 500
-            source: "/usr/share/icons/hicolor/172x172/apps/harbour-frome.png"
+            y: 450
+            source: "/usr/share/icons/hicolor/256x256/apps/harbour-frome.png"
         }
 
         Label {
