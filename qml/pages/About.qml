@@ -10,7 +10,7 @@ Page {
         Image {
             id: icon
             anchors.horizontalCenter: parent.horizontalCenter
-            y: 450
+            y: 470
             source: "/usr/share/icons/hicolor/256x256/apps/harbour-frome.png"
         }
 
