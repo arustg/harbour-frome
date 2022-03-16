@@ -7,8 +7,10 @@ Grid {
     spacing:  0
     rowSpacing: 0
 
-       ThemeEffect {effect: ThemeEffect.Press}
-
+    ThemeEffect {
+        id: keypadBuzz
+        effect: ThemeEffect.Press
+    }
        Rectangle {
            id: button1
            width: 220
@@ -17,7 +19,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("1"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("1"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button1;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "1"
@@ -34,7 +42,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("2"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("2"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button2;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "2"
@@ -51,7 +65,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("3"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("3"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button3;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "3"
@@ -68,7 +88,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("4"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("4"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button4;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "4"
@@ -85,7 +111,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("5"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("5"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button5;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "5"
@@ -102,7 +134,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("6"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("6"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button6;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "6"
@@ -119,7 +157,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("7"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("7"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button7;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "7"
@@ -136,7 +180,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("8"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("8"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button8;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "8"
@@ -153,7 +203,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("9"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("9"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button9;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "9"
@@ -170,7 +226,14 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("0"); onPressed: keypadBuzz.play()}
+               onClicked: page.digitPressed("0");
+               onPressed: keypadBuzz.play();
+               onReleased: OpacityAnimator {target: button10;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "0"
@@ -187,7 +250,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.operatorPressed("%"); onPressed: keypadBuzz.play()}
+               onClicked: page.operatorPressed("%"); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button11;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "%"
@@ -204,7 +273,13 @@ Grid {
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.operatorPressed("="); onPressed: keypadBuzz.play()}
+               onClicked: page.operatorPressed("="); onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button12;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
            Text {
                anchors.centerIn: parent
                text: "="

@@ -18,7 +18,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 750
             color: Theme.highlightColor
-            text: "Frome 0.2.2"
+            text: "Frome 0.2.5"
         }
 
         Label {
