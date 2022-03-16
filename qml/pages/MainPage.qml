@@ -67,7 +67,7 @@ Page {
         ListView {
             id: listView
             model: ListModel { }
-            anchors.left: parent
+            x: 50
             height: 1700
             delegate: Item {
                 height: fontPixelSize
