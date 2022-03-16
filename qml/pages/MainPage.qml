@@ -54,11 +54,12 @@ Page {
                     onClicked: pageStack.animatorPush(Qt.resolvedUrl("About.qml"))}
         }
     }
+    SilicaItem {
+        anchors.fill: parent
 
-    Item {
         ButtonPad {
-            x: 630
-            y: 400
+            anchors.left: parent.horizontalCenter
+            anchors.verticalCenter: parent.verticalCenter
         }
     }
 
@@ -66,7 +67,7 @@ Page {
         ListView {
             id: listView
             model: ListModel { }
-            x: 50
+            anchors.left: parent
             height: 1700
             delegate: Item {
                 height: fontPixelSize
