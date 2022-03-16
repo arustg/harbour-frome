@@ -75,16 +75,17 @@ Page {
                 Text {
                     id: operator
                     font.pixelSize: 150
-                    color: "#FFE680"
-                    text: model.operator}
-
+                    color: Theme.highlightBackgroundColor
+                    text: model.operator
+                }
                 Text {
                     id: operand
                     font.pixelSize: 150
                     anchors.left: parent.left
                     anchors.leftMargin: 150
-                    color: "#FFE680"
-                    text: model.operand}
+                    color: Theme.primaryColor
+                    text: model.operand
+                }
             }
 
         }
