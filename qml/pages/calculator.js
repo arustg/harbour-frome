@@ -96,7 +96,7 @@ function operatorPressed(op)
     }
 
     if (op === "=") {
-        page.newLine("=", digits.toFixed(2))
+        page.newLine(" =", digits.toFixed(2))
     }
 
     curVal = 0
