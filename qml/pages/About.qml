@@ -10,15 +10,15 @@ Page {
         Image {
             id: icon
             anchors.horizontalCenter: parent.horizontalCenter
-            y: 470
+            y: Theme.itemSizeHuge*1.3
             source: "/usr/share/icons/hicolor/256x256/apps/harbour-frome.png"
         }
 
         Label {
             anchors.horizontalCenter: parent.horizontalCenter
-            y: 750
+            y: Theme.itemSizeHuge*2.5
             color: Theme.highlightColor
-            text: "Frome 0.3.0"
+            text: "Frome 0.3.1"
         }
 
         Label {
@@ -32,7 +32,7 @@ Page {
             color: Theme.primaryColor
             font.pixelSize: Theme.fontSizeSmall
             wrapMode: Text.WordWrap
-            y: 850
+            y: Theme.itemSizeHuge*3
             horizontalAlignment: Qt.AlignHCenter
             text: qsTr("A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.")
         }
@@ -40,7 +40,7 @@ Page {
         Button {
             id: github
             anchors.horizontalCenter: parent.horizontalCenter
-            y: 1250
+            y: Theme.itemSizeHuge*4.1
             text: qsTr("Source code")
             onClicked: Qt.openUrlExternally("https://github.com/arustg/harbour-frome");
         }

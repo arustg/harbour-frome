@@ -45,6 +45,7 @@ Page {
 
     SilicaFlickable {
         anchors.fill: parent
+
         PushUpMenu {
             MenuItem {
                 text: qsTr("Skip")

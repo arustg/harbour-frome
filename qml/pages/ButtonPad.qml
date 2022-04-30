@@ -13,8 +13,8 @@ Grid {
     }
        Rectangle {
            id: button1
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -36,8 +36,8 @@ Grid {
        }
        Rectangle {
            id: button2
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -59,8 +59,8 @@ Grid {
        }
        Rectangle {
            id: button3
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -82,8 +82,8 @@ Grid {
        }
        Rectangle {
            id: button4
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -105,8 +105,8 @@ Grid {
        }
        Rectangle {
            id: button5
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -128,8 +128,8 @@ Grid {
        }
        Rectangle {
            id: button6
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -151,8 +151,8 @@ Grid {
        }
        Rectangle {
            id: button7
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -174,8 +174,8 @@ Grid {
        }
        Rectangle {
            id: button8
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -197,8 +197,8 @@ Grid {
        }
        Rectangle {
            id: button9
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -220,8 +220,8 @@ Grid {
        }
        Rectangle {
            id: button10
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -244,8 +244,8 @@ Grid {
        }
        Rectangle {
            id: button11
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.highlightColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -267,8 +267,8 @@ Grid {
        }
        Rectangle {
            id: button12
-           width: 220
-           height: 220
+           width: Theme.itemSizeHuge/1.2
+           height: Theme.itemSizeHuge/1.2
            color: Theme.highlightColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {

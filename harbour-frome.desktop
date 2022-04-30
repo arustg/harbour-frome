@@ -4,3 +4,7 @@ X-Nemo-Application-Type=silica-qt5
 Icon=harbour-frome
 Exec=harbour-frome
 Name=Frome
+
+[X-Sailjail]
+OrganizationName=net.openrepos
+ApplicationName=harbour-frome
