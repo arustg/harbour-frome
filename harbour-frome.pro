@@ -22,3 +22,6 @@ CONFIG += sailfishapp_i18n
 TRANSLATIONS += \
     translations/harbour-frome-de.ts \
     translations/harbour-frome-ru.ts
+
+DEFINES += APP_VERSION=\\\"$$VERSION\\\"
+DEFINES += APP_RELEASE=\\\"$$RELEASE\\\"

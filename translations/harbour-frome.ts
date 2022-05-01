@@ -11,12 +11,12 @@
     <message>
         <location filename="../qml/pages/About.qml" line="37"/>
         <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</source>
-        <translation>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="44"/>
         <source>Source code</source>
-        <translation>Source code</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

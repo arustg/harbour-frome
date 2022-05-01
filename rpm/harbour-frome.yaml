@@ -10,6 +10,9 @@ Sources:
 Description: |
   - Frome
 Builder: qmake5
+QMakeOptions:
+  - VERSION=%{version}
+  - RELEASE=%{release}
 PkgConfigBR:
   - sailfishapp >= 1.0.2
   - Qt5Core

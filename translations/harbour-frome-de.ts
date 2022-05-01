@@ -4,16 +4,16 @@
 <context>
     <name>About</name>
     <message>
+        <source></source>
+        <translation></translation>
+    </message>
+    <message>
         <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</source>
-        <translation>Eine einfache App zur Berechnung des Prozentsatzes aus der Zahl. Dies ist eine Open-Source-Software, die unter den Bedingungen der GNU GPLv3-Lizenz vertrieben wird.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Source code</source>
-        <translation>Quelltexte</translation>
-    </message>
-    <message>
-        <source></source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
