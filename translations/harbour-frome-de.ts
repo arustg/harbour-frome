@@ -27,11 +27,11 @@
     <name>MainPage</name>
     <message>
         <source>Skip</source>
-        <translation>Überspringen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Über Frome</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

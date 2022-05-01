@@ -64,7 +64,7 @@ Page {
         }
     }
 
-    Item {
+    SilicaItem {
         ListView {
             id: listView
             model: ListModel { }
@@ -76,13 +76,13 @@ Page {
 
                 Text {
                     id: operator
-                    font.pixelSize: 150
+                    font.pixelSize: 130
                     color: Theme.highlightBackgroundColor
                     text: model.operator
                 }
                 Text {
                     id: operand
-                    font.pixelSize: 150
+                    font.pixelSize: 130
                     anchors.left: parent.left
                     anchors.leftMargin: 150
                     color: Theme.primaryColor

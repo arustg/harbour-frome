@@ -32,12 +32,12 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="51"/>
         <source>Skip</source>
-        <translation>Skip</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="54"/>
         <source>About</source>
-        <translation>About</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

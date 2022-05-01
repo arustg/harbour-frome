@@ -27,11 +27,11 @@
     <name>MainPage</name>
     <message>
         <source>Skip</source>
-        <translation>Пропустить</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>About</source>
-        <translation>О программе</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

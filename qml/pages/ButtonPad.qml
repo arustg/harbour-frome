@@ -13,13 +13,14 @@ Grid {
     }
        Rectangle {
            id: button1
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("1"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("1");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button1;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -36,13 +37,14 @@ Grid {
        }
        Rectangle {
            id: button2
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("2"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("2");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button2;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -59,13 +61,14 @@ Grid {
        }
        Rectangle {
            id: button3
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("3"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("3");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button3;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -82,13 +85,14 @@ Grid {
        }
        Rectangle {
            id: button4
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("4"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("4");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button4;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -105,13 +109,14 @@ Grid {
        }
        Rectangle {
            id: button5
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("5"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("5");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button5;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -128,13 +133,14 @@ Grid {
        }
        Rectangle {
            id: button6
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("6"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("6");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button6;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -151,13 +157,14 @@ Grid {
        }
        Rectangle {
            id: button7
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("7"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("7");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button7;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -174,13 +181,14 @@ Grid {
        }
        Rectangle {
            id: button8
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("8"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("8");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button8;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -197,13 +205,14 @@ Grid {
        }
        Rectangle {
            id: button9
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.digitPressed("9"); onPressed: keypadBuzz.play()
+               onClicked: page.digitPressed("9");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button9;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -220,8 +229,8 @@ Grid {
        }
        Rectangle {
            id: button10
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
@@ -244,13 +253,14 @@ Grid {
        }
        Rectangle {
            id: button11
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.highlightColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.operatorPressed("%"); onPressed: keypadBuzz.play()
+               onClicked: page.operatorPressed("%");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button11;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
@@ -267,13 +277,14 @@ Grid {
        }
        Rectangle {
            id: button12
-           width: Theme.itemSizeHuge/1.2
-           height: Theme.itemSizeHuge/1.2
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
            color: Theme.highlightColor
            opacity: Theme.highlightBackgroundOpacity
            MouseArea {
                anchors.fill: parent
-               onClicked: page.operatorPressed("="); onPressed: keypadBuzz.play()
+               onClicked: page.operatorPressed("=");
+               onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button12;
                    from: 1;
                    to: Theme.highlightBackgroundOpacity;
