@@ -6,6 +6,6 @@ Exec=harbour-frome
 Name=Frome
 
 [X-Sailjail]
-OrganizationName=net.openrepos
+OrganizationName=org.arustg
 ApplicationName=harbour-frome
 Permissions=
