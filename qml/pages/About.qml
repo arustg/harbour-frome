@@ -12,6 +12,11 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             y: Theme.itemSizeHuge*1.3
             source: "/usr/share/icons/hicolor/256x256/apps/harbour-frome.png"
+            NumberAnimation on rotation {
+                   from: 0
+                   to: 134
+                   duration: 1000
+                  }
         }
 
         Label {

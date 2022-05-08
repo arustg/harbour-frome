@@ -6,9 +6,9 @@ SOURCES += src/harbour-frome.cpp
 
 DISTFILES += \
     qml/harbour-frome.qml \
-    qml/cover/CoverPage.qml \
     qml/pages/About.qml \
     qml/pages/MainPage.qml \
+    qml/pages/MovePad.qml \
     qml/pages/Numberad.qml \
     rpm/harbour-frome.spec \
     rpm/harbour-frome.yaml \

@@ -9,29 +9,41 @@
     </message>
     <message>
         <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</source>
-        <translation type="unfinished"></translation>
+        <translation>Простое приложение для вычисления процента от числа. Это программа с открытым исходным кодом, которая распространяется на условиях лицензии GNU GPLv3.</translation>
     </message>
     <message>
         <source>Source code</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>CoverPage</name>
-    <message>
-        <source>Frome</source>
-        <translation>Frome</translation>
+        <translation>Исходный код</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Пропустить</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>О программе</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Передвинуть</translation>
+    </message>
+</context>
+<context>
+    <name>MovePad</name>
+    <message>
+        <source>Skip</source>
+        <translation>Пропустить</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>О программе</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Передвинуть</translation>
     </message>
 </context>
 </TS>

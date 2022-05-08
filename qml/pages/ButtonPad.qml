@@ -16,7 +16,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("1");
@@ -40,7 +40,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("2");
@@ -64,7 +64,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("3");
@@ -88,7 +88,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("4");
@@ -112,7 +112,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("5");
@@ -136,7 +136,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("6");
@@ -160,7 +160,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("7");
@@ -184,7 +184,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("8");
@@ -208,7 +208,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("9");
@@ -232,7 +232,7 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.primaryColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.digitPressed("0");
@@ -252,11 +252,35 @@ Grid {
            }
        }
        Rectangle {
-           id: button11
+           id: button13
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.highlightColor
-           opacity: Theme.highlightBackgroundOpacity
+
+           MouseArea {
+               anchors.fill: parent
+               onClicked: page.digitPressed(".");
+               onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button13;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
+           Text {
+               anchors.centerIn: parent
+               text: "."
+               font.bold: true
+               color: Theme.primaryColor
+               font.pixelSize: Theme.fontSizeExtraLarge
+           }
+       }
+       Rectangle {
+           id: button11
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
+           color: Theme.secondaryHighlightColor
+
            MouseArea {
                anchors.fill: parent
                onClicked: page.operatorPressed("%");
@@ -270,9 +294,8 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "%"
-               font.bold: true
                color: Theme.primaryColor
-               font.pixelSize: Theme.fontSizeExtraLarge
+               font.pixelSize: Theme.fontSizeExtraLarge * 1.4
            }
        }
        Rectangle {
@@ -280,10 +303,10 @@ Grid {
            width: Theme.itemSizeHuge/1.15
            height: Theme.itemSizeHuge/1.15
            color: Theme.highlightColor
-           opacity: Theme.highlightBackgroundOpacity
+
            MouseArea {
                anchors.fill: parent
-               onClicked: page.operatorPressed("=");
+               onClicked: page.operatorPressed("C");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button12;
                    from: 1;
@@ -293,10 +316,33 @@ Grid {
            }
            Text {
                anchors.centerIn: parent
-               text: "="
-               font.bold: true
+               text: "C"
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
        }
+       Rectangle {
+           id: button14
+           width: Theme.itemSizeHuge/1.15
+           height: Theme.itemSizeHuge/1.15
+           color: Theme.secondaryHighlightColor
+
+           MouseArea {
+               anchors.fill: parent
+               onClicked: page.operatorPressed("=");
+               onPressed: keypadBuzz.play()
+               onReleased: OpacityAnimator {target: button14;
+                   from: 1;
+                   to: Theme.highlightBackgroundOpacity;
+                   duration: 200
+                   running: true}
+           }
+           Text {
+               anchors.centerIn: parent
+               text: "="
+               color: Theme.primaryColor
+               font.pixelSize: Theme.fontSizeExtraLarge * 2
+           }
+       }
+
 }

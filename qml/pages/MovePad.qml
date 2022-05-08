@@ -116,7 +116,7 @@ Page {
         anchors.fill: parent
 
         ButtonPad {
-            anchors.left: parent.horizontalCenter
+            anchors.right: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
         }
     }
@@ -125,7 +125,7 @@ Page {
         ListView {
             id: listView
             model: ListModel { }
-            x: 10
+            x: Theme.itemSizeHuge * 1.75
             height: Theme.itemSizeHuge * 5.5
             delegate: Item {
                 height: fontPixelSize
