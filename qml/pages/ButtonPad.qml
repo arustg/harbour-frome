@@ -22,7 +22,7 @@ Grid {
                onClicked: page.digitPressed("1");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button1;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -46,7 +46,7 @@ Grid {
                onClicked: page.digitPressed("2");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button2;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -70,7 +70,7 @@ Grid {
                onClicked: page.digitPressed("3");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button3;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -94,7 +94,7 @@ Grid {
                onClicked: page.digitPressed("4");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button4;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -118,7 +118,7 @@ Grid {
                onClicked: page.digitPressed("5");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button5;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -142,7 +142,7 @@ Grid {
                onClicked: page.digitPressed("6");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button6;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -166,7 +166,7 @@ Grid {
                onClicked: page.digitPressed("7");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button7;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -190,7 +190,7 @@ Grid {
                onClicked: page.digitPressed("8");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button8;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -214,7 +214,7 @@ Grid {
                onClicked: page.digitPressed("9");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button9;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -238,7 +238,7 @@ Grid {
                onClicked: page.digitPressed("0");
                onPressed: keypadBuzz.play();
                onReleased: OpacityAnimator {target: button10;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -262,7 +262,7 @@ Grid {
                onClicked: page.digitPressed(".");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button13;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -286,7 +286,7 @@ Grid {
                onClicked: page.operatorPressed("%");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button11;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -309,7 +309,7 @@ Grid {
                onClicked: page.operatorPressed("C");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button12;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
@@ -332,7 +332,7 @@ Grid {
                onClicked: page.operatorPressed("=");
                onPressed: keypadBuzz.play()
                onReleased: OpacityAnimator {target: button14;
-                   from: 1;
+                   from: 0.5;
                    to: Theme.highlightBackgroundOpacity;
                    duration: 200
                    running: true}
