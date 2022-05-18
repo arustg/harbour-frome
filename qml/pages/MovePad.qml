@@ -56,7 +56,7 @@ Page {
         }
 
         if (op === "=") {
-            page.newLine("", digits.toFixed(2))
+            page.newLine("__", digits.toFixed(2))
         }
 
         if (op === "C") {

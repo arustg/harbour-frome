@@ -9,8 +9,8 @@ Name:       harbour-frome
 # << macros
 
 Summary:    Simple Percentage Calculating App
-Version:    0.3.3
-Release:    0
+Version:    0.3.4
+Release:    1
 Group:      Qt/Qt
 License:    GNU GPLv3
 URL:        https://github.com/arustg/harbour-frome

@@ -30,7 +30,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "1"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -54,7 +53,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "2"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -78,7 +76,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "3"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -102,7 +99,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "4"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -126,7 +122,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "5"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -150,7 +145,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "6"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -174,7 +168,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "7"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -198,7 +191,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "8"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -222,7 +214,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "9"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -246,7 +237,6 @@ Grid {
            Text {
                anchors.centerIn: parent
                text: "0"
-               font.bold: true
                color: Theme.primaryColor
                font.pixelSize: Theme.fontSizeExtraLarge
            }
@@ -295,7 +285,7 @@ Grid {
                anchors.centerIn: parent
                text: "%"
                color: Theme.primaryColor
-               font.pixelSize: Theme.fontSizeExtraLarge * 1.4
+               font.pixelSize: Theme.fontSizeExtraLarge * 1.2
            }
        }
        Rectangle {
@@ -341,7 +331,7 @@ Grid {
                anchors.centerIn: parent
                text: "="
                color: Theme.primaryColor
-               font.pixelSize: Theme.fontSizeExtraLarge * 2
+               font.pixelSize: Theme.fontSizeExtraLarge * 1.5
            }
        }
 

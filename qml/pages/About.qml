@@ -21,7 +21,7 @@ Page {
 
         Label {
             anchors.horizontalCenter: parent.horizontalCenter
-            y: Theme.itemSizeHuge*2.5
+            y: Theme.itemSizeHuge*2.6
             color: Theme.highlightColor
             text: "Frome " + Qt.application.version
         }

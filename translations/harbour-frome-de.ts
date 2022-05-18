@@ -19,16 +19,16 @@
 <context>
     <name>MainPage</name>
     <message>
+        <source>Move</source>
+        <translation type="unfinished">Verschieben</translation>
+    </message>
+    <message>
         <source>Skip</source>
-        <translation>Überspringen</translation>
+        <translation type="unfinished">Überspringen</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Über</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Verschieben</translation>
+        <translation type="unfinished">Über</translation>
     </message>
 </context>
 <context>

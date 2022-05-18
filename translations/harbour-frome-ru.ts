@@ -19,16 +19,16 @@
 <context>
     <name>MainPage</name>
     <message>
+        <source>Move</source>
+        <translation type="unfinished">Передвинуть</translation>
+    </message>
+    <message>
         <source>Skip</source>
-        <translation>Пропустить</translation>
+        <translation type="unfinished">Пропустить</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>О программе</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation>Передвинуть</translation>
+        <translation type="unfinished">О программе</translation>
     </message>
 </context>
 <context>
