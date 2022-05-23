@@ -1,7 +1,7 @@
 Name: harbour-frome
-Summary: Simple Percentage Calculating App
-Version: 0.3.4
-Release: 1
+Summary: Simple Percentage Calculator
+Version: 0.3.5
+Release: 0
 Group: Qt/Qt
 URL: https://github.com/arustg/harbour-frome
 License: GNU GPLv3

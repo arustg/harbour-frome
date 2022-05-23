@@ -22,17 +22,17 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="102"/>
+        <location filename="../qml/pages/MainPage.qml" line="108"/>
         <source>Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="108"/>
+        <location filename="../qml/pages/MainPage.qml" line="114"/>
         <source>Skip</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="111"/>
+        <location filename="../qml/pages/MainPage.qml" line="117"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
@@ -40,17 +40,17 @@
 <context>
     <name>MovePad</name>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="102"/>
+        <location filename="../qml/pages/MovePad.qml" line="108"/>
         <source>Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="108"/>
+        <location filename="../qml/pages/MovePad.qml" line="114"/>
         <source>Skip</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="111"/>
+        <location filename="../qml/pages/MovePad.qml" line="117"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>

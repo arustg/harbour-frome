@@ -23,6 +23,16 @@ Page {
         }
     }
 
+    function clear()
+    {
+        if (enteringDigits) {
+            var i = listView.model.count - 1
+            if (i >= 0)
+                listView.model.remove(i)
+            enteringDigits = false
+        }
+    }
+
     function digitPressed(op)
     {
         if (disabled(op))
@@ -59,16 +69,12 @@ Page {
             page.newLine("__", digits.toFixed(2))
         }
 
-        if (op === "C") {
-                curVal = 0
-                lastOp = ""
-                digits ="0"
-            }
-
-
         curVal = 0
         previousOperator = ""
 
+        if (op === "C") {
+            page.clear()
+        }
     }
 
     function displayOperator(operator)
