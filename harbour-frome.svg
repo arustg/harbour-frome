@@ -12,7 +12,7 @@
    xml:space="preserve"
    id="svg21"
    sodipodi:docname="harbour-frome.svg"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    inkscape:export-filename="../../../../home/arustg/Projects/harbour-frome/icons/86x86/harbour-frome.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -151,8 +151,8 @@
      id="namedview23"
      showgrid="false"
      inkscape:zoom="4.3248624"
-     inkscape:cx="-16.99476"
-     inkscape:cy="37.57345"
+     inkscape:cx="-22.081627"
+     inkscape:cy="37.804671"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -166,14 +166,14 @@
      inkscape:deskcolor="#ffffff"><inkscape:grid
        type="xygrid"
        id="grid867" /></sodipodi:namedview><path
-     style="fill:#ffffff;stroke-width:2.64566929;stroke:#7a7a7a;stroke-opacity:0.98358136;stroke-dasharray:none;fill-opacity:1"
+     style="fill:#e6e6e6;stroke-width:2.64566929;stroke:#7a7a7a;stroke-opacity:0.98358136;stroke-dasharray:none;fill-opacity:1"
      inkscape:connector-curvature="0"
      id="path428"
      d="m 84.83834,2.7157142 c 0,-0.7686055 -0.622928,-1.3915251 -1.391572,-1.3915251 0,0 -39.742675,0 -40.363644,0 -23.061765,0 -41.7561995,18.6944479 -41.7561995,41.7562019 0,23.060753 18.6944345,41.756201 41.7561995,41.756201 23.061752,0 41.756201,-18.695448 41.756201,-41.756201 0,-0.621974 -0.0021,-40.3646768 -0.0021,-40.3646768 z" /><g
      id="g2603"
-     transform="matrix(0.89595985,0,0,0.89595985,129.17122,25.977874)"
-     style="fill:none;stroke:#7a7a7a;stroke-width:3.22202;stroke-dasharray:none;stroke-opacity:0.983581"><path
-       style="fill:none;fill-opacity:1;stroke:#7a7a7a;stroke-width:3.22202;stroke-dasharray:none;stroke-opacity:0.983581"
+     transform="matrix(0.85029549,0,0,0.85029549,124.66152,27.095044)"
+     style="fill:#ffffff;stroke:#7a7a7a;stroke-width:0.88899156;stroke-dasharray:none;stroke-opacity:0.983581;fill-opacity:1"><path
+       style="fill:#ffffff;fill-opacity:1;stroke:#7a7a7a;stroke-width:0.88899156;stroke-dasharray:none;stroke-opacity:0.983581"
        id="path237-5"
        sodipodi:type="arc"
        sodipodi:cx="-94.821861"
@@ -185,7 +185,7 @@
        d="m -56.966249,-23.871368 a 37.855743,37.855743 0 0 1 -30.999542,37.130079 37.855743,37.855743 0 0 1 -42.192789,-23.651281 37.855743,37.855743 0 0 1 15.49806,-45.819478 37.855743,37.855743 0 0 1 47.886721,6.817366 l -28.048062,25.423679 z"
        sodipodi:arc-type="slice"
        transform="rotate(-25.478928)" /><path
-       style="fill:none;fill-opacity:1;stroke:#7a7a7a;stroke-width:3.22202;stroke-dasharray:none;stroke-opacity:0.983581"
+       style="fill:#ffffff;fill-opacity:1;stroke:#7a7a7a;stroke-width:0.88899156;stroke-dasharray:none;stroke-opacity:0.983581"
        id="path237"
        sodipodi:type="arc"
        sodipodi:cx="-94.596115"

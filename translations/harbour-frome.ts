@@ -10,11 +10,13 @@
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="42"/>
-        <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.</source>
+        <source>A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.
+
+To get the value, first enter the percentage, then the number from which the percentage is calculated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="49"/>
+        <location filename="../qml/pages/About.qml" line="51"/>
         <source>Source code</source>
         <translation type="unfinished"></translation>
     </message>

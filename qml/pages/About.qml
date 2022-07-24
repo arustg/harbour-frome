@@ -39,13 +39,15 @@ Page {
             wrapMode: Text.WordWrap
             y: Theme.itemSizeHuge*3
             horizontalAlignment: Qt.AlignHCenter
-            text: qsTr("A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.")
+            text: qsTr("A simple app for calculating percentage from number. This is an open source software which is distributed under the terms of the GNU GPLv3 License.
+
+To get the value, first enter the percentage, then the number from which the percentage is calculated.")
         }
 
         Button {
             id: github
             anchors.horizontalCenter: parent.horizontalCenter
-            y: Theme.itemSizeHuge*4.1
+            y: Theme.itemSizeHuge*5.2
             text: qsTr("Source code")
             onClicked: Qt.openUrlExternally("https://github.com/arustg/harbour-frome");
         }
