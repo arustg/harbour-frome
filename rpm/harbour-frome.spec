@@ -9,7 +9,7 @@ Name:       harbour-frome
 # << macros
 
 Summary:    Simple Percentage Calculator
-Version:    0.3.7
+Version:    0.4
 Release:    0
 Group:      Qt/Qt
 License:    GNU GPLv3

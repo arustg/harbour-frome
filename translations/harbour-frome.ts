@@ -24,17 +24,17 @@ To get the value, first enter the percentage, then the number from which the per
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="108"/>
+        <location filename="../qml/pages/MainPage.qml" line="109"/>
         <source>Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="114"/>
+        <location filename="../qml/pages/MainPage.qml" line="115"/>
         <source>Skip</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="117"/>
+        <location filename="../qml/pages/MainPage.qml" line="118"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
@@ -42,17 +42,17 @@ To get the value, first enter the percentage, then the number from which the per
 <context>
     <name>MovePad</name>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="108"/>
+        <location filename="../qml/pages/MovePad.qml" line="109"/>
         <source>Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="114"/>
+        <location filename="../qml/pages/MovePad.qml" line="115"/>
         <source>Skip</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="117"/>
+        <location filename="../qml/pages/MovePad.qml" line="118"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>

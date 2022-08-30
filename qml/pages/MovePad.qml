@@ -4,7 +4,7 @@ import Sailfish.Silica 1.0
 Page {
     id: page
     property bool enteringDigits: false
-    property int fontPixelSize: 220
+    property int fontPixelSize: Theme.fontSizeHugeBase
     // @disable-check M311
     property var curVal: 0
     // @disable-check M311
@@ -61,6 +61,7 @@ Page {
         if (op === "%") {
             previousOperator = op
             curVal = digits.valueOf()
+            page.digitPressed(previousOperator)
             page.displayOperator(previousOperator)
             return
         }
@@ -138,16 +139,8 @@ Page {
                 width: parent.width
 
                 Text {
-                    id: operator
-                    font.pixelSize: 200
-                    x: 250
-                    y: -250
-                    color: Theme.highlightBackgroundColor
-                    text: model.operator
-                }
-                Text {
                     id: operand
-                    font.pixelSize: 130
+                    font.pixelSize: Theme.fontSizeExtraLarge
                     anchors.left: parent.left
                     anchors.leftMargin: 20
                     color: Theme.primaryColor

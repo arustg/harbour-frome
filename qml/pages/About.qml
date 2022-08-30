@@ -35,7 +35,7 @@ Page {
             }
             height: implicitHeight + Theme.paddingMedium
             color: Theme.primaryColor
-            font.pixelSize: Theme.fontSizeSmall
+            font.pixelSize: Theme.fontSizeExtraSmall
             wrapMode: Text.WordWrap
             y: Theme.itemSizeHuge*3
             horizontalAlignment: Qt.AlignHCenter
@@ -47,7 +47,7 @@ To get the value, first enter the percentage, then the number from which the per
         Button {
             id: github
             anchors.horizontalCenter: parent.horizontalCenter
-            y: Theme.itemSizeHuge*4.8
+            y: Theme.itemSizeHuge*5
             text: qsTr("Source code")
             onClicked: Qt.openUrlExternally("https://github.com/arustg/harbour-frome");
         }

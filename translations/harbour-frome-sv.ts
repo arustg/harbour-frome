@@ -26,17 +26,17 @@ För att få värdet anger du först procentsatsen och sedan den siffra från vi
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="108"/>
+        <location filename="../qml/pages/MainPage.qml" line="109"/>
         <source>Move</source>
         <translation>Flytta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="114"/>
+        <location filename="../qml/pages/MainPage.qml" line="115"/>
         <source>Skip</source>
         <translation>Hoppa över</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="117"/>
+        <location filename="../qml/pages/MainPage.qml" line="118"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
@@ -44,17 +44,17 @@ För att få värdet anger du först procentsatsen och sedan den siffra från vi
 <context>
     <name>MovePad</name>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="108"/>
+        <location filename="../qml/pages/MovePad.qml" line="109"/>
         <source>Move</source>
         <translation>Flytta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="114"/>
+        <location filename="../qml/pages/MovePad.qml" line="115"/>
         <source>Skip</source>
         <translation>Hoppa över</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MovePad.qml" line="117"/>
+        <location filename="../qml/pages/MovePad.qml" line="118"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
