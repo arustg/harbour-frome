@@ -10,7 +10,7 @@ Page {
         Image {
             id: icon
             anchors.horizontalCenter: parent.horizontalCenter
-            y: Theme.itemSizeHuge*1.3
+            y: Theme.itemSizeHuge*1.1
             source: "/usr/share/icons/hicolor/256x256/apps/harbour-frome.png"
             NumberAnimation on rotation {
                    from: 0
@@ -47,7 +47,7 @@ To get the value, first enter the percentage, then the number from which the per
         Button {
             id: github
             anchors.horizontalCenter: parent.horizontalCenter
-            y: Theme.itemSizeHuge*5.2
+            y: Theme.itemSizeHuge*4.8
             text: qsTr("Source code")
             onClicked: Qt.openUrlExternally("https://github.com/arustg/harbour-frome");
         }

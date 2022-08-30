@@ -4,7 +4,7 @@ import Sailfish.Silica 1.0
 Page {
     id: page
     property bool enteringDigits: false
-    property int fontPixelSize: 220
+    property int fontPixelSize: Theme.fontSizeExtraLarge * 1.2
     // @disable-check M311
     property var curVal: 0
     // @disable-check M311
@@ -66,7 +66,7 @@ Page {
         }
 
         if (op === "=") {
-            page.newLine("__", digits.toFixed(2))
+            page.newLine("", digits.toFixed(2))
         }
 
         curVal = 0
@@ -132,22 +132,23 @@ Page {
             id: listView
             model: ListModel { }
             x: 10
-            height: Theme.itemSizeHuge * 5.5
+            y: 20
+            height: Theme.itemSizeHuge * 2.5
             delegate: Item {
                 height: fontPixelSize
                 width: parent.width
 
                 Text {
                     id: operator
-                    font.pixelSize: 200
+                    font.pixelSize: Theme.fontSizeExtraLarge
                     x: 250
-                    y: -250
+                    y: -110
                     color: Theme.highlightBackgroundColor
                     text: model.operator
                 }
                 Text {
                     id: operand
-                    font.pixelSize: 130
+                    font.pixelSize: Theme.fontSizeExtraLarge
                     anchors.left: parent.left
                     anchors.leftMargin: 20
                     color: Theme.primaryColor
