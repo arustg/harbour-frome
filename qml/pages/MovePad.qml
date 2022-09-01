@@ -142,7 +142,7 @@ Page {
                     font.pixelSize: Theme.fontSizeExtraLarge
                     anchors.left: parent.left
                     anchors.leftMargin: 20
-                    color: Theme.primaryColor
+                    color: Theme.highlightColor
                     text: model.operand
                 }
             }
