@@ -104,13 +104,11 @@ Page {
     SilicaFlickable {
         anchors.fill: parent
 
-        PullDownMenu {
+
+        PushUpMenu {
             MenuItem {
                 text: qsTr("Move")
                 onClicked: pageStack.animatorPush(Qt.resolvedUrl("MovePad.qml"))}
-        }
-
-        PushUpMenu {
             MenuItem {
                 text: qsTr("Skip")
                 onClicked: pageStack.animatorPush(Qt.resolvedUrl("MainPage.qml"))}
@@ -132,7 +130,8 @@ Page {
         ListView {
             id: listView
             model: ListModel { }
-            x: Theme.itemSizeHuge * 1.75
+            x: Theme.itemSizeHuge * 1.70
+            y: 20
             height: Theme.itemSizeHuge * 5.5
             delegate: Item {
                 height: fontPixelSize

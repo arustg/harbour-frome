@@ -10,8 +10,8 @@ Page {
         Image {
             id: icon
             anchors.horizontalCenter: parent.horizontalCenter
-            y: Theme.itemSizeHuge*1.1
-            source: "/usr/share/icons/hicolor/256x256/apps/harbour-frome.png"
+            y: Theme.itemSizeHuge*1.5
+            source: "/usr/share/icons/hicolor/172x172/apps/harbour-frome.png"
             NumberAnimation on rotation {
                    from: 0
                    to: 134

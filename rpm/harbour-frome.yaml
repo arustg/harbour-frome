@@ -1,14 +1,14 @@
 Name: harbour-frome
 Summary: Simple Percentage Calculator
-Version: 0.4
-Release: 0
+Version: 0.4.1
+Release: 2
 Group: Qt/Qt
 URL: https://github.com/arustg/harbour-frome
-License: GNU GPLv3
+License: GPLv3
 Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |
-  - Simple Percentage Calculator
+  - Simple Percentage Calculator for Sailfish OS
 Builder: qmake5
 QMakeOptions:
   - VERSION=%{version}
