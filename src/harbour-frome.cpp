@@ -1,10 +1,6 @@
-#include <QtGui/QGuiApplication>
-#include <QtQml>
-#include <QQuickView>
-#include <QQmlEngine>
-#include <QQmlContext>
-#include <QScopedPointer>
-#include <QTimer>
+#ifdef QT_QML_DEBUG
+#include <QtQuick>
+#endif
 
 #include <sailfishapp.h>
 
