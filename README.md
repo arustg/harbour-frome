@@ -1,4 +1,5 @@
 # Frome
 Simple Percentage Calculator for SailfishOS
 
-![photo_2022-09-01_21-09-18i](https://user-images.githubusercontent.com/4253881/187983997-f40ba260-b841-47e6-a822-c0180f767c65.jpg)
+![photo_2022-05-20_16-53-03g](https://user-images.githubusercontent.com/4253881/169581908-d51e178d-c80b-4a2b-a540-e6088958a084.jpg)
+

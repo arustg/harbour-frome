@@ -10,8 +10,13 @@
 
 int main(int argc, char *argv[])
 {
-    QScopedPointer<QGuiApplication> application(SailfishApp::application(argc, argv));
-    application->setApplicationVersion(QString(APP_VERSION));
+    QScopedPointer<QGuiApplication> app(SailfishApp::application(argc, argv));
+    QScopedPointer<QQuickView> view(SailfishApp::createView());
 
-    return SailfishApp::main(argc, argv);
+    app->setApplicationVersion(QString(APP_VERSION));
+
+    view->setSource(SailfishApp::pathTo(QString("qml/harbour-frome.qml")));
+    view->show();
+
+    return app->exec();
 }
